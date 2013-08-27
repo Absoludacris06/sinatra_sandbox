@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Welcome to the index page!</h1>
+
+  <form action="/cool_url" method="get">
+    Type something (get to cool_url):
+    <br>
+    <input type="text" name="get_user_input">
+    <input type="submit" value="Get to cool url!">
+  </form>
+  <br>
+  <form action="/cool_url" method="post">
+    Type something (post to cool_url):
+    <br>
+    <input type="text" name="post[title]">
+    <input type="submit" value="Post to cool_url!">
+    <br>
+    <input type="radio" name="post[make]" id="first" value="this">
+    <label for = "first">First</label>
+    <input type="radio" name="post[make]" id="second" value="that">
+    <label for = "second">Second</label>
+    <br>
+    <input type="checkbox" name="post[price]" value="one">One<br>
+    <input type="checkbox" name="post[price]" value="two">Two<br>
+    <input type="checkbox" name="post[price]" value="three">Three<br>
+    <br>
+    <select name="post[description]">
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="black">Black</option>      
+    </select>
+  </form>
+</div>
